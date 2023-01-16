@@ -1,4 +1,5 @@
 from flask import Blueprint, jsonify
+from main import driver
 
 departments = Blueprint('departments', __name__)
 
